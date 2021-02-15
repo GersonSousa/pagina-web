@@ -76,10 +76,26 @@ body{
     color: #E7E8EE;
     margin: 0 0.6rem;
 }
+.mid .row button:hover{
+    background: #E7E8EE;
+    padding: .7rem 1.7rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 3px;
+    color: #6163FF;
+    margin: 0 0.6rem;
+}
+
+
 
 .mid .row button:nth-child(2){
     background: #25282C;
     color: #E7E8EE;
+}
+.mid .row button:nth-child(2):hover{
+    background: #E7E8EE;
+    color: #25282C;
 }
 
 body > header > div > h1.text2{
